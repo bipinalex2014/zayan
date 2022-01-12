@@ -1,0 +1,61 @@
+#job-view-button:hover {
+    background-color: rgb(63, 163, 4);
+  }
+
+.head{
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+}
+.side-bar{
+  background-color: #3FA304;
+}
+.main-content{
+  /* display: flex; */
+  /* float: right; */
+  min-height: 100vh;
+}
+.navig-content{
+  display: flex;
+  flex-direction:column;
+}
+.navig-item{
+  margin: auto 2em ;
+  padding: 1em;
+  color: white;
+  
+}
+.navig-item .logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin:5em 0;
+}
+.navig-item a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.navig-item a:hover{
+  text-decoration: none;
+  color: white;
+}
+.navig-item a:focus{
+  text-decoration: none;
+  color: white;
+}
+
+.r-card{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  background-color:white;
+  border-radius:0 3em 0 3em;
+  box-shadow: 0 0 1em rgba(180, 179, 179, 0.692);
+}
+.screen{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

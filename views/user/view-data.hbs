@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="home-content">
+
+     <span class="text">View all clients</span>
+
+     </div>
+    <div class="card shadow">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone Number</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data}}
+                        <tr>
+
+                            <td>{{this.name}}</td>
+                            <td>{{this.address}}</td>
+                            <td>{{this.date}}</td>
+                            <td>{{this.email}}</td>
+                            <td>{{this.mobile}}</td>
+                            <td><a href="/job-details/{{this._id}}" id="job-view-button"
+                                    class="btn btn-theme btn-lg btn-outline-success mx-auto p-1">view</a></td>
+
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
